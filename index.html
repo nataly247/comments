@@ -4,11 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Awesome Comment System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Blog</h1>
-    
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">FD-Blog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Why Flutter</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Examples
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Flutter Chat App</a>
+                                <a class="dropdown-item" href="#">Crypto App</a>
+                                <a class="dropdown-item" href="#">Flutter Travel UI</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Dart Webpage</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://flutter.dev/docs" target="blank">Documentation</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-margin btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <button class="btn btn-margin btn-info">Register</button>
+                    <button class="btn btn-success">Log In</button>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                    <div class="col-md-9 p-lg-9 mx-auto my-9">
+                        <h1 class="display-4 font-weight-normal">Flutter and Dart</h1>
+                        <p class="lead font-weight-normal">Flutter is a free and open-sourse UI Framework for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Flutter code is compiled to native ARM machine code using Dart's native
+                            compilers. You can use one programming language and codebase to create different apps.
+                        </p>
+                        <a class="btn btn-outline-primary" href="https://flutter.dev/" target="_blank">Learn More</a>
+                    </div>
+                    
+                </div>
+            </div>
+        
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+
+    <footer class="page-footer text-center">
+        <div class="container">
+            <p>
+            © 2020 Nataly Panakhyd aka <a href="mailto:nataly247g@gmail.com">@nataly247</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
